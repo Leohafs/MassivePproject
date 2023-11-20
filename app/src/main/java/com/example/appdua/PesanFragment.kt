@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -20,6 +22,14 @@ class PesanFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+
+    private lateinit var adapter: PesanAdapter
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var pesanList : ArrayList<Pesan>
+
+    lateinit var imageId : Array<Int>
+    lateinit var heading : Array<String>
+    lateinit var deskripsi : Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,5 +65,54 @@ class PesanFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        detailinitiallize()
+        val layoutManager = LinearLayoutManager(context)
+        recyclerView = view.findViewById(R.id.Recyle_pesan)
+        recyclerView.layoutManager = layoutManager
+        recyclerView.setHasFixedSize(true)
+        adapter = PesanAdapter(pesanList)
+        recyclerView.adapter = adapter
+    }
+
+    private fun detailinitiallize(){
+
+        pesanList = arrayListOf<Pesan>()
+
+        imageId = arrayOf(
+            R.drawable.img_ps1,
+            R.drawable.img_ps2,
+            R.drawable.img_ps3,
+            R.drawable.img_ps4,
+            R.drawable.img_ps5,
+            R.drawable.img_ps6,
+        )
+
+        heading = arrayOf(
+            getString(R.string.nama_toko1),
+            getString(R.string.nama_toko2),
+            getString(R.string.nama_toko3),
+            getString(R.string.nama_toko4),
+            getString(R.string.nama_toko5),
+            getString(R.string.nama_toko6),
+        )
+
+        deskripsi = arrayOf(
+            getString(R.string.dk_ps_toko),
+            getString(R.string.dk_ps_toko),
+            getString(R.string.dk_ps_toko),
+            getString(R.string.dk_ps_toko),
+            getString(R.string.dk_ps_toko),
+            getString(R.string.dk_ps_toko),
+            getString(R.string.dk_ps_toko),
+        )
+
+        for (i in imageId.indices) {
+            val pesan = Pesan(imageId[i], heading[i],deskripsi[i])
+            pesanList.add(pesan)
+        }
     }
 }
