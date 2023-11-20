@@ -27,9 +27,9 @@ class PesanFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var pesanList : ArrayList<Pesan>
 
-    lateinit var imageId : Array<Int>
-    lateinit var heading : Array<String>
-    lateinit var deskripsi : Array<String>
+    private lateinit var imageId : Array<Int>
+    private lateinit var heading : Array<String>
+    private lateinit var deskripsi : Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -67,6 +67,7 @@ class PesanFragment : Fragment() {
             }
     }
 
+//    menampilkan recycle view
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         detailinitiallize()
@@ -80,7 +81,7 @@ class PesanFragment : Fragment() {
 
     private fun detailinitiallize(){
 
-        pesanList = arrayListOf<Pesan>()
+        pesanList = arrayListOf()
 
         imageId = arrayOf(
             R.drawable.img_ps1,
@@ -101,7 +102,6 @@ class PesanFragment : Fragment() {
         )
 
         deskripsi = arrayOf(
-            getString(R.string.dk_ps_toko),
             getString(R.string.dk_ps_toko),
             getString(R.string.dk_ps_toko),
             getString(R.string.dk_ps_toko),
