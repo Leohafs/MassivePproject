@@ -1,6 +1,5 @@
 package com.example.appdua
 
-import android.icu.text.Transliterator.Position
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -27,9 +26,9 @@ class PesanAdapter(private val pesanlist : ArrayList<Pesan>) : RecyclerView.Adap
     }
 
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val tvImage : ShapeableImageView = itemView.findViewById(R.id.imageView3)
-        val tvHeading : TextView = itemView.findViewById(R.id.textView3)
-        val tvDeskripsi : TextView = itemView.findViewById(R.id.textView4)
+        val tvImage : ShapeableImageView = itemView.findViewById(R.id.img_pesan)
+        val tvHeading : TextView = itemView.findViewById(R.id.tv_JPesan)
+        val tvDeskripsi : TextView = itemView.findViewById(R.id.tv_Dpesan)
 
     }
 

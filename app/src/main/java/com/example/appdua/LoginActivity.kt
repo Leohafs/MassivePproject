@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnLogin: Button = findViewById(R.id.btn_login)
         btnLogin.setOnClickListener(this)
-        val btnBuatAkun: TextView = findViewById(R.id.buatAkun)
+        val btnBuatAkun: TextView = findViewById(R.id.tv_buatAkun)
         btnBuatAkun.setOnClickListener(this)
     }
 
@@ -28,7 +28,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 val loginIntent = Intent(this@LoginActivity, MainActivity::class.java)
                 startActivity(loginIntent)
             }
-            R.id.buatAkun -> {
+            R.id.tv_buatAkun -> {
                 val buatAkunIntent = Intent(this@LoginActivity,RegisterActivity::class.java)
                 startActivity(buatAkunIntent)
             }
