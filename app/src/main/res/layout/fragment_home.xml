@@ -256,12 +256,11 @@
             </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:text="Apa yang anda butuhkan hari ini?"
             android:textColor="@color/green"
             android:textSize="20dp"
