@@ -13,6 +13,8 @@
     <string name="dk_ps_toko">Pesanan saya sudah sampai mana pak?</string>
     <string name="btn_toko">Kunjungi Toko</string>
 
+<!--    produk-->
+    <string name="btn_beli">Beli Sekarang</string>
 
 
 </resources>

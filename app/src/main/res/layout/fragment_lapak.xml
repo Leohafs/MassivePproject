@@ -16,33 +16,37 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.appcompat.widget.SearchView
                 android:id="@+id/tv_searchPesan"
-                android:layout_width="280dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
+                android:layout_weight="1"
                 android:layout_marginTop="32dp"
                 android:background="@drawable/stroke_search"
                 app:iconifiedByDefault="false"
-                app:queryHint="cari sayur..." />
+                app:queryHint="cari Toko..." />
 
             <ImageView
                 android:id="@+id/img_notif"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginTop="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
                 android:src="@drawable/baseline_notifications_active_24" />
 
             <ImageView
                 android:id="@+id/img_keranjang"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="20dp"
