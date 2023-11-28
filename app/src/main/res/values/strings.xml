@@ -3,7 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-<!-- pesan   -->
+    <!-- pesan   -->
     <string name="nama_toko1">Rumah Sayur</string>
     <string name="nama_toko2">Sayur Pak Tanto</string>
     <string name="nama_toko3">Warung sayurku</string>
@@ -13,8 +13,15 @@
     <string name="dk_ps_toko">Pesanan saya sudah sampai mana pak?</string>
     <string name="btn_toko">Kunjungi Toko</string>
 
-<!--    produk-->
+    <!--    produk-->
     <string name="btn_beli">Beli Sekarang</string>
+
+    <string name="alamat">
+        Agus, Mentari No. 178 RT 09/09,kelurahan Beji,
+        Kecamatan sukmajaya, kota Depok,
+        Jawa Barat 16412
+        No. Telp. 08128989675
+    </string>
 
 
 </resources>

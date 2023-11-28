@@ -35,7 +35,7 @@
                 android:layout_marginTop="32dp"
                 android:background="@drawable/stroke_search"
                 app:iconifiedByDefault="false"
-                app:queryHint="cari ..." />
+                app:queryHint="cari ..."/>
 
             <ImageView
                 android:id="@+id/img_notif"
@@ -67,7 +67,7 @@
             android:layout_marginTop="4dp"
             android:text="Kategori"
             android:textColor="@color/green"
-            android:textSize="25dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.095"
@@ -92,6 +92,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/kt_satu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -108,7 +109,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/img_kategori1"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:contentDescription="TODO" />
                     </androidx.cardview.widget.CardView>
                     <TextView
                         android:layout_width="wrap_content"
@@ -120,6 +122,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/kt_dua"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -148,10 +151,10 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/kt_tiga"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-
                     android:layout_weight="1"
                     android:gravity="center"
                     android:layout_margin="5dp">
@@ -165,7 +168,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/img_kategori3"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:contentDescription="TODO" />
                     </androidx.cardview.widget.CardView>
                     <TextView
                         android:layout_width="wrap_content"
@@ -177,6 +181,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/kt_empat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -238,7 +243,8 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.504" />
+                        app:layout_constraintVertical_bias="0.504"
+                        android:contentDescription="TODO" />
 
                     <TextView
                         android:layout_width="150dp"
@@ -263,7 +269,7 @@
             android:layout_marginTop="10dp"
             android:text="Apa yang anda butuhkan hari ini?"
             android:textColor="@color/green"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.18"

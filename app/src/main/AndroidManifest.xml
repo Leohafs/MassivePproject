@@ -13,6 +13,24 @@
         android:theme="@style/Theme.AppDua"
         tools:targetApi="31">
         <activity
+            android:name=".DetailAlamatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlamatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SbumbuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmasakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SsegarActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
