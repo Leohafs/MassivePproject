@@ -1,4 +1,4 @@
-package com.example.appdua
+package com.example.appdua.model
 
 data class Pesan(
     var image: Int,

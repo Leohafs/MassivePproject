@@ -1,10 +1,12 @@
-package com.example.appdua
+package com.example.appdua.modelview
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.appdua.R
+import com.example.appdua.model.Pesan
 import com.google.android.material.imageview.ShapeableImageView
 
 class PesanAdapter(private val pesanlist : ArrayList<Pesan>) : RecyclerView.Adapter<PesanAdapter.MyViewHolder>() {

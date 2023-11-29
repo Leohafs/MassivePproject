@@ -13,34 +13,37 @@
         android:theme="@style/Theme.AppDua"
         tools:targetApi="31">
         <activity
-            android:name=".DetailAlamatActivity"
+            android:name=".view.DetailTokoActivity"
             android:exported="false" />
         <activity
-            android:name=".AlamatActivity"
+            android:name=".view.DetailAlamatActivity"
             android:exported="false" />
         <activity
-            android:name=".SbumbuActivity"
+            android:name=".view.AlamatActivity"
             android:exported="false" />
         <activity
-            android:name=".PmasakActivity"
+            android:name=".view.SbumbuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.PmasakActivity"
             android:exported="false" />
         <activity
             android:name=".AllActivity"
             android:exported="false" />
         <activity
-            android:name=".SsegarActivity"
+            android:name=".view.SsegarActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".view.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".view.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".view.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
