@@ -27,10 +27,12 @@ override fun onClick(v: View) {
         R.id.Two_lewat -> {
             val lewatIntent = Intent(this@TwoActivity, FourActivity::class.java)
             startActivity(lewatIntent)
+            overridePendingTransition(0, 0)
         }
         R.id.Two_lanjutkan -> {
             val lanjutkanIntent = Intent(this@TwoActivity, ThreeActivity::class.java)
             startActivity(lanjutkanIntent)
+            overridePendingTransition(0, 0)
         }
     }
 }

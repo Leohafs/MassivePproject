@@ -27,10 +27,12 @@ class ThreeActivity : AppCompatActivity(), View.OnClickListener {
             R.id.Three_lewat -> {
                 val lewatIntent = Intent(this@ThreeActivity,FourActivity::class.java)
                 startActivity(lewatIntent)
+                overridePendingTransition(0, 0)
             }
             R.id.Three_lanjutkan -> {
                 val lanjutkanIntent = Intent(this@ThreeActivity, FourActivity::class.java)
                 startActivity(lanjutkanIntent)
+                overridePendingTransition(0, 0)
             }
         }
     }

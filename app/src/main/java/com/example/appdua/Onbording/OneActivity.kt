@@ -26,10 +26,12 @@ class OneActivity : AppCompatActivity(), View.OnClickListener {
             R.id.One_lewat -> {
                 val lewatIntent = Intent(this@OneActivity, FourActivity::class.java)
                 startActivity(lewatIntent)
+                overridePendingTransition(0, 0)
             }
             R.id.One_lanjutkan -> {
                 val lanjutkanIntent = Intent(this@OneActivity, TwoActivity::class.java)
                 startActivity(lanjutkanIntent)
+                overridePendingTransition(0, 0)
             }
         }
     }

@@ -5,9 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.TextView
 import com.example.appdua.R
-import com.example.appdua.view.MainActivity
+import com.example.appdua.view.LoginActivity
 
 class FourActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,8 +20,9 @@ class FourActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when(v.id){
             R.id.Started -> {
-                val StartedIntent = Intent(this@FourActivity, MainActivity::class.java)
+                val StartedIntent = Intent(this@FourActivity, LoginActivity::class.java)
                 startActivity(StartedIntent)
+                overridePendingTransition(0, 0)
             }
         }
     }
