@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AppDua"
         tools:targetApi="31">
         <activity
+            android:name=".Onbording.FourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Onbording.ThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Onbording.TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Onbording.OneActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.DetailTokoActivity"
             android:exported="false" />
         <activity
