@@ -13,6 +13,15 @@
         android:theme="@style/Theme.AppDua"
         tools:targetApi="31">
         <activity
+            android:name=".view.SuccsesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.PembayaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.DetailProdukActivity"
+            android:exported="false" />
+        <activity
             android:name=".Onbording.FourActivity"
             android:exported="false" />
         <activity
@@ -38,9 +47,6 @@
             android:exported="false" />
         <activity
             android:name=".view.PmasakActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AllActivity"
             android:exported="false" />
         <activity
             android:name=".view.SsegarActivity"

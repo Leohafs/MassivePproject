@@ -8,8 +8,8 @@ import androidx.fragment.app.FragmentStatePagerAdapter
 class DetailTokoAdapter(fm : FragmentManager) : FragmentStatePagerAdapter(fm,
     BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
-    var fragmenlist : ArrayList<Fragment> = ArrayList()
-    var fragmentitle : ArrayList<String> = ArrayList()
+    private var fragmenlist : ArrayList<Fragment> = ArrayList()
+    private var fragmentitle : ArrayList<String> = ArrayList()
 
     override fun getCount(): Int {
         return fragmenlist.size

@@ -23,5 +23,21 @@
         No. Telp. 08128989675
     </string>
 
+    <string name="detailProduk">
+        Bawang merah adalah bumbu ajaib yang memberikan karakter dan cita rasa unik pada setiap hidangan.
+        Kami dengan bangga mempersembahkan bawang merah berkualitas terbaik yang akan mengangkat masakan
+        Anda ke level berikutnya. Ditanam dengan penuh dedikasi dan perawatan, bawang merah kami tumbuh
+        dengan indah, menghasilkan umbi yang segar, renyah, dan kaya rasa. Dengan bawang merah berkualitas
+        prima ini, Anda bisa menciptakan hidangan yang tak terlupakan, mulai dari tumisan, saus, hingga
+        campuran salad yang lezat. Jangan lewatkan kesempatan ini untuk memiliki bawang merah terbaik yang
+        akan menjadikan masakan Anda lebih istimewa. Segera miliki produk kami dan nikmati pengalaman
+        memasak yang luar biasa!
+    </string>
+
+    <string name="desk_pengiriman">
+        Sistem Pengiriman tersedia COD, Pihak petani akan mengantarkan belanjaan ke lokasi anda. siapkan dana sesuai total pembayaran!
+        Anda bisa hubungi penjual di sini jika pesanan belum sampai di lokasi anda. Terimaksih telah berbelanja..
+    </string>
+
 
 </resources>
