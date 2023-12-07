@@ -325,6 +325,7 @@
         android:background="@color/bggrey">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cd_keranjang"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -342,6 +343,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cd_pesan"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:layout_gravity="center"

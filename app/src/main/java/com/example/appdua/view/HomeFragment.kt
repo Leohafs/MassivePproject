@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import com.example.appdua.R
@@ -43,6 +44,20 @@ class HomeFragment : Fragment() {
         val detailproduk : Button = view.findViewById(R.id.btn_detailpoduk)
         detailproduk.setOnClickListener {
             val intent = Intent(activity, DetailProdukActivity::class.java)
+            startActivity(intent)
+            activity?.overridePendingTransition(0, 0)
+        }
+
+        val notifikasi : ImageView = view.findViewById(R.id.img_notif)
+        notifikasi.setOnClickListener {
+            val intent = Intent(activity, NotifikasiActivity::class.java)
+            startActivity(intent)
+            activity?.overridePendingTransition(0, 0)
+        }
+
+        val keranjang : ImageView = view.findViewById(R.id.img_keranjang)
+        keranjang.setOnClickListener {
+            val intent = Intent(activity, KeranjangActivity::class.java)
             startActivity(intent)
             activity?.overridePendingTransition(0, 0)
         }
