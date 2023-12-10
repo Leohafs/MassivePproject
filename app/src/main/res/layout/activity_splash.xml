@@ -10,7 +10,7 @@
 
     <ImageView
         android:id="@+id/img_splash"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:src="@drawable/logo_app"
         app:layout_constraintBottom_toBottomOf="parent"

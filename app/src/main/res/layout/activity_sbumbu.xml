@@ -229,31 +229,19 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/btn_detail"
                                 android:drawableTint="@color/white"
                                 android:text="@string/btn_beli"
                                 android:textSize="13sp"
                                 android:paddingHorizontal="12dp"
-                                android:textAlignment="textStart"
                                 android:textColor="@color/white"
                                 android:textAllCaps="false"/>
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="5dp"
-                                android:padding="8dp"
-                                android:layout_weight="1"
-                                android:src="@drawable/baseline_add_shopping_cart_24"
-                                android:layout_gravity="center"
-                                android:background="@drawable/bg_keranjang"/>
-
                         </LinearLayout>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -296,26 +284,15 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/btn_detail"
                                 android:drawableTint="@color/white"
                                 android:text="@string/btn_beli"
                                 android:textSize="13sp"
                                 android:paddingHorizontal="12dp"
-                                android:textAlignment="textStart"
                                 android:textColor="@color/white"
                                 android:textAllCaps="false"/>
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="5dp"
-                                android:padding="8dp"
-                                android:layout_weight="1"
-                                android:src="@drawable/baseline_add_shopping_cart_24"
-                                android:layout_gravity="center"
-                                android:background="@drawable/bg_keranjang"/>
-
                         </LinearLayout>
 
                     </LinearLayout>

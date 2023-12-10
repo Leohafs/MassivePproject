@@ -32,10 +32,10 @@
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_margin="5dp"
-                    android:gravity="center"
                     app:cardBackgroundColor="@color/bggrey"
                     app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp">
+                    app:cardElevation="0dp"
+                    android:gravity="center">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -54,15 +54,14 @@
                             android:layout_height="wrap_content"
                             android:text="Bawang Merah"
                             android:textSize="15sp"
-                            android:textStyle="bold" />
-
+                            android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
                             android:text="Rp.35.000 / kg"
-                            android:textColor="@color/green"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textColor="@color/green"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -70,41 +69,28 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/btn_detail"
                                 android:drawableTint="@color/white"
-                                android:paddingHorizontal="12dp"
                                 android:text="@string/btn_beli"
-                                android:textAlignment="textStart"
-                                android:textAllCaps="false"
+                                android:textSize="13sp"
+                                android:paddingHorizontal="12dp"
                                 android:textColor="@color/white"
-                                android:textSize="13sp" />
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:layout_marginStart="5dp"
-                                android:layout_weight="1"
-                                android:background="@drawable/bg_keranjang"
-                                android:padding="8dp"
-                                android:src="@drawable/baseline_add_shopping_cart_24" />
-
+                                android:textAllCaps="false"/>
                         </LinearLayout>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_margin="5dp"
-                    android:gravity="center"
                     app:cardBackgroundColor="@color/bggrey"
                     app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp">
+                    app:cardElevation="0dp"
+                    android:gravity="center">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -123,15 +109,14 @@
                             android:layout_height="wrap_content"
                             android:text="Bawang Merah"
                             android:textSize="15sp"
-                            android:textStyle="bold" />
-
+                            android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
                             android:text="Rp.35.000 / kg"
-                            android:textColor="@color/green"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textColor="@color/green"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -139,41 +124,28 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/btn_detail"
                                 android:drawableTint="@color/white"
-                                android:paddingHorizontal="12dp"
                                 android:text="@string/btn_beli"
-                                android:textAlignment="textStart"
-                                android:textAllCaps="false"
+                                android:textSize="13sp"
+                                android:paddingHorizontal="12dp"
                                 android:textColor="@color/white"
-                                android:textSize="13sp" />
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:layout_marginStart="5dp"
-                                android:layout_weight="1"
-                                android:background="@drawable/bg_keranjang"
-                                android:padding="8dp"
-                                android:src="@drawable/baseline_add_shopping_cart_24" />
-
+                                android:textAllCaps="false"/>
                         </LinearLayout>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_margin="5dp"
-                    android:gravity="center"
                     app:cardBackgroundColor="@color/bggrey"
                     app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp">
+                    app:cardElevation="0dp"
+                    android:gravity="center">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -192,15 +164,14 @@
                             android:layout_height="wrap_content"
                             android:text="Bawang Merah"
                             android:textSize="15sp"
-                            android:textStyle="bold" />
-
+                            android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
                             android:text="Rp.35.000 / kg"
-                            android:textColor="@color/green"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textColor="@color/green"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -208,41 +179,28 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/btn_detail"
                                 android:drawableTint="@color/white"
-                                android:paddingHorizontal="12dp"
                                 android:text="@string/btn_beli"
-                                android:textAlignment="textStart"
-                                android:textAllCaps="false"
+                                android:textSize="13sp"
+                                android:paddingHorizontal="12dp"
                                 android:textColor="@color/white"
-                                android:textSize="13sp" />
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:layout_marginStart="5dp"
-                                android:layout_weight="1"
-                                android:background="@drawable/bg_keranjang"
-                                android:padding="8dp"
-                                android:src="@drawable/baseline_add_shopping_cart_24" />
-
+                                android:textAllCaps="false"/>
                         </LinearLayout>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_margin="5dp"
-                    android:gravity="center"
                     app:cardBackgroundColor="@color/bggrey"
                     app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp">
+                    app:cardElevation="0dp"
+                    android:gravity="center">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -261,15 +219,14 @@
                             android:layout_height="wrap_content"
                             android:text="Bawang Merah"
                             android:textSize="15sp"
-                            android:textStyle="bold" />
-
+                            android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
                             android:text="Rp.35.000 / kg"
-                            android:textColor="@color/green"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textColor="@color/green"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -277,41 +234,28 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/btn_detail"
                                 android:drawableTint="@color/white"
-                                android:paddingHorizontal="12dp"
                                 android:text="@string/btn_beli"
-                                android:textAlignment="textStart"
-                                android:textAllCaps="false"
+                                android:textSize="13sp"
+                                android:paddingHorizontal="12dp"
                                 android:textColor="@color/white"
-                                android:textSize="13sp" />
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:layout_marginStart="5dp"
-                                android:layout_weight="1"
-                                android:background="@drawable/bg_keranjang"
-                                android:padding="8dp"
-                                android:src="@drawable/baseline_add_shopping_cart_24" />
-
+                                android:textAllCaps="false"/>
                         </LinearLayout>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_columnWeight="1"
                     android:layout_margin="5dp"
-                    android:gravity="center"
                     app:cardBackgroundColor="@color/bggrey"
                     app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp">
+                    app:cardElevation="0dp"
+                    android:gravity="center">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -330,15 +274,14 @@
                             android:layout_height="wrap_content"
                             android:text="Bawang Merah"
                             android:textSize="15sp"
-                            android:textStyle="bold" />
-
+                            android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
                             android:text="Rp.35.000 / kg"
-                            android:textColor="@color/green"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textColor="@color/green"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -346,27 +289,15 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/btn_detail"
                                 android:drawableTint="@color/white"
-                                android:paddingHorizontal="12dp"
                                 android:text="@string/btn_beli"
-                                android:textAlignment="textStart"
-                                android:textAllCaps="false"
+                                android:textSize="13sp"
+                                android:paddingHorizontal="12dp"
                                 android:textColor="@color/white"
-                                android:textSize="13sp" />
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:layout_marginStart="5dp"
-                                android:layout_weight="1"
-                                android:background="@drawable/bg_keranjang"
-                                android:padding="8dp"
-                                android:src="@drawable/baseline_add_shopping_cart_24" />
-
+                                android:textAllCaps="false"/>
                         </LinearLayout>
 
                     </LinearLayout>
