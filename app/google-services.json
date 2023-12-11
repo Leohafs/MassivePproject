@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "624504190397",
+    "project_id": "fb-sayoerku",
+    "storage_bucket": "fb-sayoerku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624504190397:android:45ccbd6908b5d1b793ced4",
+        "android_client_info": {
+          "package_name": "com.example.appdua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXqs56OG5Vd_mBClg2DAFghuJcU27S2uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
