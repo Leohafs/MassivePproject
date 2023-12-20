@@ -205,9 +205,9 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="111dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/caisim" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -261,14 +261,14 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="108dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/papcoy" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Papcoy"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
@@ -319,12 +319,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/selada" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Sawi Putih"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
@@ -373,14 +373,14 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="103dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/brokoli" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Brokoli"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView

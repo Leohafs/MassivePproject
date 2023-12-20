@@ -13,8 +13,10 @@
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -52,15 +54,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="15dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginVertical="20dp"
                 android:background="@drawable/bg_keranjang"
                 android:gravity="center"
                 android:paddingVertical="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintHorizontal_bias="0.6"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btn_img_left">
+                app:layout_constraintTop_toBottomOf="@+id/btn_img_left"
+                tools:ignore="MissingConstraints">
 
                 <ImageView
                     android:layout_width="50dp"
@@ -69,12 +71,14 @@
                     android:src="@drawable/outline_location_on_24" />
 
                 <LinearLayout
+                    android:id="@+id/llAlamatPengiriman"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/tvAlamatPengiriman"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Alamat Pengiriman"
@@ -82,9 +86,10 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/tvDetailAlamat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/alamat"
+                        android:text="Alfid, Jalan sumampir , Rt.1,/Rw.1, kost putra"
                         android:textSize="15sp" />
 
                 </LinearLayout>
@@ -104,13 +109,14 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:text="Rumah Sayur"
+                android:textColor="@color/green"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/green"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                tools:ignore="MissingConstraints" />
 
             <LinearLayout
                 android:id="@+id/ll_pesanan"
@@ -126,9 +132,9 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
                     app:cardBackgroundColor="@color/bggrey"
-                    app:cardCornerRadius="20dp"
-                    android:layout_marginVertical="5dp">
+                    app:cardCornerRadius="20dp">
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -169,9 +175,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:text="X 1"
                     android:textAlignment="textEnd"
-                    android:layout_gravity="center"
                     android:textColor="@color/green"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -184,13 +190,13 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:text="Pengiriman"
+                android:textColor="@color/green"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/green"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ll_pesanan"/>
+                app:layout_constraintTop_toBottomOf="@+id/ll_pesanan" />
 
             <TextView
                 android:id="@+id/desk_pengiriman"
@@ -203,7 +209,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_pengiriman"/>
+                app:layout_constraintTop_toBottomOf="@+id/tv_pengiriman" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -227,36 +227,55 @@
                 android:layout_marginHorizontal="20dp"
                 app:cardCornerRadius="20dp">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_info">
 
                     <ImageView
                         android:id="@+id/imageView"
-                        android:layout_width="180dp"
-                        android:layout_height="180dp"
-                        android:layout_marginStart="16dp"
-                        android:src="@drawable/img_produk1"
+                        android:layout_width="236dp"
+                        android:layout_height="226dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="42dp"
+                        android:layout_marginBottom="-48dp"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/orang"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.504"
-                        android:contentDescription="TODO" />
+                        app:layout_constraintVertical_bias="1.0" />
 
                     <TextView
-                        android:layout_width="150dp"
-                        android:layout_height="wrap_content"
-                        android:text="Belanja Sayuran lebih mudah dari Rumah"
-                        android:textStyle="bold"
-                        android:textSize="20sp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.686"
-                        app:layout_constraintStart_toEndOf="@+id/imageView"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginVertical="10dp"
+                        android:layout_marginEnd="146dp"
+                        android:text="Cari sayuran?"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold"></TextView>
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="133dp"
+                        android:layout_height="135dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginVertical="50dp"
+                        android:layout_marginTop="77dp"
+                        android:layout_marginEnd="1dp"
+                        android:text="Belanja Lebih Mudah dari Rumah"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
@@ -363,14 +382,14 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="103dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/img_produk1" />
+                        android:src="@drawable/caisim" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bawang Merah"
+                        android:text="Seledri"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -378,7 +397,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginVertical="5dp"
-                        android:text="Rp.35.000 / kg"
+                        android:text="Rp.25.000 / kg"
                         android:textColor="@color/green"
                         android:textSize="13sp" />
 
@@ -422,12 +441,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:src="@drawable/img_produk1" />
+                        android:src="@drawable/selada" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bawang Merah"
+                        android:text="Sawi Putih"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -435,7 +454,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginVertical="5dp"
-                        android:text="Rp.35.000 / kg"
+                        android:text="Rp.4.000 / kg"
                         android:textColor="@color/green"
                         android:textSize="13sp" />
 
@@ -471,20 +490,20 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="222dp"
                     android:orientation="vertical"
                     android:padding="10dp">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="102dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/img_produk1" />
+                        android:src="@drawable/papcoy" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bawang Merah"
+                        android:text="Papcoy"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -492,7 +511,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginVertical="5dp"
-                        android:text="Rp.35.000 / kg"
+                        android:text="Rp.25.000 / kg"
                         android:textColor="@color/green"
                         android:textSize="13sp" />
 

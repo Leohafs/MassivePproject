@@ -100,21 +100,21 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="102dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/papcoy" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Papcoy"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
-                            android:text="Rp.35.000 / kg"
+                            android:text="Rp.25.000 / kg"
                             android:textSize="13sp"
                             android:textColor="@color/green"/>
 
@@ -155,21 +155,21 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="103dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/paprika" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Paprika Hijau"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
-                            android:text="Rp.35.000 / kg"
+                            android:text="Rp.21.000 / kg"
                             android:textSize="13sp"
                             android:textColor="@color/green"/>
 
@@ -210,21 +210,21 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="96dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/selada" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Sawi Putih"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
-                            android:text="Rp.35.000 / kg"
+                            android:text="Rp.4.000 / kg"
                             android:textSize="13sp"
                             android:textColor="@color/green"/>
 
@@ -265,21 +265,21 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="89dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/caisim" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Seledri"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="5dp"
-                            android:text="Rp.35.000 / kg"
+                            android:text="Rp.25.000 / kg"
                             android:textSize="13sp"
                             android:textColor="@color/green"/>
 

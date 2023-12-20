@@ -205,14 +205,70 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="108dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/sayurasem" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Sayur Lodeh"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="5dp"
+                            android:text="Rp.35.000 / kg"
+                            android:textSize="13sp"
+                            android:textColor="@color/green"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/btn_detail"
+                                android:drawableTint="@color/white"
+                                android:text="@string/btn_beli"
+                                android:textSize="13sp"
+                                android:paddingHorizontal="12dp"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    app:cardBackgroundColor="@color/bggrey"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="104dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/tumiskangkung" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tumis kangkung"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
@@ -263,68 +319,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
+                            android:src="@drawable/asem" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
-                            android:textSize="15sp"
-                            android:textStyle="bold"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="5dp"
-                            android:text="Rp.35.000 / kg"
-                            android:textSize="13sp"
-                            android:textColor="@color/green"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <Button
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@drawable/btn_detail"
-                                android:drawableTint="@color/white"
-                                android:text="@string/btn_beli"
-                                android:textSize="13sp"
-                                android:paddingHorizontal="12dp"
-                                android:textColor="@color/white"
-                                android:textAllCaps="false"/>
-                        </LinearLayout>
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="@color/bggrey"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp"
-                    android:gravity="center">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center"
-                            android:src="@drawable/img_produk1" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Bawang Merah"
+                            android:text="Sayur Asem"
                             android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView

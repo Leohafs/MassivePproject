@@ -1,5 +1,6 @@
 package com.example.appdua.view
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -15,6 +16,7 @@ class AlamatActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var rt: EditText
     private lateinit var rw: EditText
     private lateinit var info: EditText
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alamat)
@@ -27,6 +29,7 @@ class AlamatActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnSimpan: Button = findViewById(R.id.btn_simpan)
         btnSimpan.setOnClickListener(this)
+
     }
 
     override fun onClick(v: View) {

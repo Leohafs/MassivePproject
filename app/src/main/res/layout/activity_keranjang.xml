@@ -76,7 +76,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <LinearLayout
-                    android:layout_width="150dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:orientation="vertical">
@@ -85,7 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Bawang Merah"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -112,7 +112,7 @@
                 </LinearLayout>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
+                    android:layout_width="87dp"
                     android:layout_height="35dp"
                     android:layout_gravity="bottom"
                     app:cardBackgroundColor="@color/bggrey"
@@ -126,9 +126,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginVertical="5dp"
+                        android:gravity="center"
                         android:orientation="horizontal"
-                        android:paddingHorizontal="5dp"
-                        android:gravity="center">
+                        android:paddingHorizontal="5dp">
 
                         <Button
                             android:layout_width="20dp"
@@ -185,13 +185,13 @@
                     android:layout_height="100dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/bg_imgproduk"
-                    android:src="@drawable/img_produk1"
+                    android:src="@drawable/selada"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <LinearLayout
-                    android:layout_width="150dp"
+                    android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:orientation="vertical">
@@ -199,8 +199,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bawang Merah"
-                        android:textSize="20dp"
+                        android:text="Sawi Putih"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -218,7 +218,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp.35.000"
+                            android:text="Rp.4.000"
                             android:textColor="@color/green"
                             android:textSize="18dp"
                             android:textStyle="bold" />
@@ -227,7 +227,7 @@
                 </LinearLayout>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
+                    android:layout_width="89dp"
                     android:layout_height="35dp"
                     android:layout_gravity="bottom"
                     app:cardBackgroundColor="@color/bggrey"
@@ -241,9 +241,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginVertical="5dp"
+                        android:gravity="center"
                         android:orientation="horizontal"
-                        android:paddingHorizontal="5dp"
-                        android:gravity="center">
+                        android:paddingHorizontal="5dp">
 
                         <Button
                             android:layout_width="20dp"
@@ -300,13 +300,13 @@
                     android:layout_height="100dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/bg_imgproduk"
-                    android:src="@drawable/img_produk1"
+                    android:src="@drawable/brokoli"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <LinearLayout
-                    android:layout_width="150dp"
+                    android:layout_width="115dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:orientation="vertical">
@@ -314,8 +314,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bawang Merah"
-                        android:textSize="20dp"
+                        android:text="Brokoli"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -333,7 +333,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp.35.000"
+                            android:text="Rp.40.000"
                             android:textColor="@color/green"
                             android:textSize="18dp"
                             android:textStyle="bold" />
@@ -342,7 +342,7 @@
                 </LinearLayout>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
+                    android:layout_width="91dp"
                     android:layout_height="35dp"
                     android:layout_gravity="bottom"
                     app:cardBackgroundColor="@color/bggrey"
@@ -356,9 +356,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginVertical="5dp"
+                        android:gravity="center"
                         android:orientation="horizontal"
-                        android:paddingHorizontal="5dp"
-                        android:gravity="center">
+                        android:paddingHorizontal="5dp">
 
                         <Button
                             android:layout_width="20dp"
@@ -440,14 +440,14 @@
 
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                                android:layout_height="109dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/img_produk1" />
+                                android:src="@drawable/papcoy" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Bawang Merah"
+                                android:text="Papcoy"
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
 
@@ -455,7 +455,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginVertical="5dp"
-                                android:text="Rp.35.000 / kg"
+                                android:text="Rp.25.000 / kg"
                                 android:textColor="@color/green"
                                 android:textSize="13sp" />
 
@@ -490,14 +490,14 @@
 
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                                android:layout_height="108dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/img_produk1" />
+                                android:src="@drawable/paprika" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Bawang Merah"
+                                android:text="Paprika Hijau"
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
 
@@ -505,7 +505,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginVertical="5dp"
-                                android:text="Rp.35.000 / kg"
+                                android:text="Rp.21.000 / kg"
                                 android:textColor="@color/green"
                                 android:textSize="13sp" />
 
@@ -540,14 +540,14 @@
 
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                                android:layout_height="109dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/img_produk1" />
+                                android:src="@drawable/terong" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Bawang Merah"
+                                android:text="Terong"
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
 
@@ -656,23 +656,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_gravity="center">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Total :"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:gravity="end"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Rp.35.000"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:gravity="end"/>
-        </LinearLayout>
+            android:layout_gravity="center"/>
 
         <Button
             android:id="@+id/btn_beli"
